@@ -1,8 +1,6 @@
 name: Dry run publish to npm
 
 on:
-  push:
-    branches:
   workflow_dispatch:
 
 jobs:
