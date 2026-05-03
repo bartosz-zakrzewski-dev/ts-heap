@@ -1,0 +1,33 @@
+{
+  "name": "@bartosz.zakrzewski.dev/ts-heap",
+  "description": "Simple max and min heap for Typescript",
+  "keywords": [
+    "Heap",
+    "TypeScript",
+    "MaxHeap",
+    "MinHeap"
+  ],
+  "author": "Bartosz Zakrzewski",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartosz-zakrzewski-dev/ts-heap"
+  },
+  "bugs": {
+    "url": "https://github.com/bartosz-zakrzewski-dev/ts-heap/issues"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
