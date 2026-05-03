@@ -10,7 +10,7 @@
   "author": "Bartosz Zakrzewski",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bartosz-zakrzewski-dev/ts-heap"
+    "url": "git+https://github.com/bartosz-zakrzewski-dev/ts-heap.git"
   },
   "bugs": {
     "url": "https://github.com/bartosz-zakrzewski-dev/ts-heap/issues"
