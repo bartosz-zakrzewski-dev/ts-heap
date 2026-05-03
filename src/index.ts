@@ -1,1 +1,1 @@
-export { MaxHeap, MinHeap } from './heap';
+export { MaxHeap, MinHeap } from './heap.js';
