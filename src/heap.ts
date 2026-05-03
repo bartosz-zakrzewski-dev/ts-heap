@@ -92,7 +92,6 @@ export class MaxHeap<T extends HasNumericValue> extends Heap<T> {
   protected heapifyUp() {
     let index = this.heap.length - 1;
 
-    // Max heap = if value of newly added item is bigger than parent's value swap
     while (this.hasParent(index) && this.getParent(index).value < (this.heap[index] as T).value) {
       this.swap(this.getParentIndex(index), index);
       index = this.getParentIndex(index);
